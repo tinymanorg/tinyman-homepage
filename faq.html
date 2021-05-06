@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Tinyman | Decentralized, secure trading. Guaranteed liquidity.</title>
+  <meta name="description" content="Tinyman is a re-imagined decentralized trading protocol which utilizes the fast and secure framework of the Algorand blockchain, creating an open and safe marketplace for traders, liquidity providers, and developers.">
+  <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./normalize.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="./img/favicon.ico">
+  <link rel="icon" href="./img/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./img/icon.png">
+  <meta property="og:image" content="http://tinyman.org/img/tinyman.png" />
+</head>
+<body class="faq">
+
+<div class="side faq">
+  <a href="http://tinyman.org"><div class="icon"></div></a>
+</div>
+<div id="main">
+    <a href="/" class="back">←  GO BACK TO HOMEPAGE</a>
+    <div class="container">
+      <div class="section intro">
+        <img src="img/faq.svg"><h2>FAQ</h2>
+        <p>Tinyman is an ongoing development, and the following FAQs will continue to be updated as the Tinyman protocol continues to be enhanced. The technology and structure that will be applied at the launch of Tinyman may change as research.</p>
+      </div>
+      <ul class="questions">
+        <li>
+          <h4>What service does Tinyman offer?</h4>
+          <p>Tinyman enables users to trade/swap Assets (Tokens/Currencies) at market rates.</p>
+        </li>
+        <li>
+          <h4>Who are the users of Tinyman?</h4>
+          <p>There are two classes of users of Tinyman: Swappers who trade assets and Poolers who provide asset liquidity for the trading Pools.
+            Poolers are individuals/organisations who own reasonably large amounts of assets. Swappers are individuals/organisations who wish to exchange tokens. They may be interested in doing this in an automated way with bots or they may use an app interface.</p>
+        </li>
+        <li>
+          <h4>Who sets the exchange rates?</h4>
+          <p>The exchange rate for a swap is determined from the ratio of the pair of Assets in the Pool and the amount to be swapped. The precise rate will be different for every transaction but will always ensure the total product of the Pool stays constant (+ fees).</p>
+        </li>
+        <li>
+          <h4>What are Pools?</h4>
+          <p>Pools are Accounts holding two different Assets contributed by Poolers. Swappers transfer assets to and from pools.</p>
+        </li>
+        <li>
+          <h4>How is the exchange rate enforced?</h4>
+          <p>The smart contracts of the Pool ensure that only a group of transactions for the correct amounts succeed.</p>
+        </li>
+        <li>
+          <h4>Why do Poolers provide assets?</h4>
+          <p>In return for providing assets they receive a share of transaction fees.</p>
+        </li>
+        <li>
+          <h4>How are Poolers fee shares calculated?</h4>
+          <p>A Pooler is issued an amount of Pool Token proportional to their Pool contribution. This can be cashed in at any time in return for a portion of the Pools assets.</p>
+        </li>
+        <li>
+          <h4>How often does the Pooler receive fees?</h4>
+          <p>Poolers only receive fees when they withdraw liquidity (assets) from the Pool by exchanging their Pool Tokens.</p>
+        </li>
+        <li>
+          <h4>Who controls withdrawals from the Pools?</h4>
+          <p>The assets are held in a contract account that only allows withdrawals in two cases:</br>
+            1. As one transaction of a swap where an equal value of the other asset is deposited</br>
+            2. As one transaction of a withdrawal where an equal value of Pool Tokens are deposited</p>
+        </li>
+        <li>
+          <h4>Who owns the assets in a Pool?</h4>
+          <p>Only the Pool Token holders have the right to withdraw assets and only in proportion to their contribution so they collectively own the Pool assets</p>
+        </li>
+        <li>
+          <h4>Can a Pooler withdraw one asset from a Pool?</h4>
+          <p>No, the Pool’s balance must be maintained so an equal value of both currencies must be withdrawn in exchange for Pool Tokens.</p>
+        </li>
+        <li>
+          <h4>How does a Swapper interact with Tinyman?</h4>
+          <p>A Swapper may swap assets with the Tinyman pools using either of three methods:</br>
+            1. Manually creating, signing and submitting a set of transactions that satisfy the smart
+            contracts</br>
+            2. Signing and submitting the transactions created by the helper functions of the Tinyman
+            JS library</br>
+            3. Using the web app interface to do the swap, signing the transactions with a wallet
+            browser extension</p>
+        </li>
+        <li>
+          <h4>How does a Pooler interact with Tinyman?</h4>
+          <p>Using any of the 3 methods described for Swappers</p>
+        </li>
+        <li>
+          <h4>How will the exchange rate track the general market rate?</h4>
+          <p>Certain swappers will monitor discrepancies between Tinyman rates and rates on other exchanges and trade these to their profit until the rates are equalised. This is known as arbitrage trading.</p>
+        </li>
+        <li>
+          <h4>How are Pools created?</h4>
+          <p>Pools are created by submitting a specific set of transactions. The logic of the contracts ensures
+            that only one Tinyman Pool can exist for a pair of assets.</p>
+        </li>
+        <li>
+          <h4>Who can create Pools?</h4>
+          <p>Anyone can create a Pool by issuing the correct set of transactions</p>
+        </li>
+        <li>
+          <h4>Can Pools be created for any pair of Alogrand Standard Assets?</h4>
+          <p>In theory yes. There may be reasons why this needs to be limited somehow</p>
+        </li>
+        <li>
+          <h4>Can Pools be created with Algo as one of the ‘assets’?</h4>
+          <p>Yes. Algo is not an ASA but it may be used as one of the assets in a Pool. Details to be confirmed.</p>
+        </li>
+        <li>
+          <h4>How is the exchange rate set at the time of Pool creation?</h4>
+          <p>The Pool creation contracts do not enforce an exchange rate as they have no knowledge of the
+            current market rates. However it is in the Pooler's interest to ensure the ratio of assets deposits
+            matches the market rates. Pools can always be traded against from both sides so Swappers will
+            take advantage of any rates that don't match the overall market.</p>
+        </li>
+        <li>
+          <h4>What currency/asset is the swap fee paid in?</h4>
+          <p>Depending on the swap mechanism (fixed input or fixed output) the fee is deducted from either
+            the assets sold or bought. The fee amount is added to the liquidity in the pool.</p>
+        </li>
+        <li>
+          <h4>Does the platform/protocol earn fees?</h4>
+          <p>The contracts include a mechanism to set a protocol fee as a portion (1/6th TBC) of the
+            transaction fee. If this is enabled Pool tokens will be issued for the fee account on every trade</p>
+        </li>
+        <li>
+          <h4>Who will control the protocol fee account?</h4>
+          <p>The protocol fee account will be controlled by a governance process encoded in smart
+            contracts. Holders of a governance token will be able to participate in this process and control
+            how the fee account’s assets are used. The details of this governance system are TDB. It will
+            not be in place at the time of the initial product launch. It must be in place before the protocol
+            fee is enabled (this cannot be encoded in the contracts so this is a matter of trust). (This may
+            change, we may enable fees from the start and direct them to a MultiSig account)</p>
+        </li>
+        <li>
+          <h4>Can Pool tokens be traded?</h4>
+          <p>Yes they are standard assets and can be traded freely. Only the pool token is necessary to
+            redeem liquidity from the associated Pool.</p>
+        </li>
+        <li>
+          <h4>Can't the Tinyman team change the rules of contracts and take all the
+            assets?</h4>
+          <p>No. The contracts will be published with rules that forbid anyone to change them. The team will
+            have no way of taking assets from Pool accounts. The only possible change will be to enable
+            the protocol fee (at the hardcoded rate) and set a fee account.</p>
+        </li>
+        <li>
+          <h4>Does that mean the Tinyman product will never change or improve?</h4>
+          <p>No. The contracts themselves cannot be updated but the interface may be improved and may
+            even interact with new contracts. If the team persuades the community that the new contracts
+            offer advantages the Poolers will move their assets to the new accounts. The old contracts will
+            still exist and Swappers and Poolers will still be free to use them as they wish.</p>
+        </li>
+        </ul>
+        <div class="section swapping">
+          <img src="img/swapping.svg"><h2>Swapping</h2>
+        </div>
+        <ul class="questions">
+        <li>
+          <h4>What transactions are needed for a Swap?</h4>
+          <p>A Swap is made by transferring some of Asset A to a Pool and transferring some of Asset B from the Pool. Algorand smart contracts only allow or reject transactions but do not initiate any transfers themselves. The Tinyman SDK/Web App will prepare a group of transactions that will be approved by the Tinyman smart contracts.
+            </br>
+            The specific group of transactions needed for a Swap are as follows:</br>
+            0: Pay - pay fees in Algo from Swapper to Pool</br>
+            1: App Call - NoOp call to Pair App with args 'swap'</br>
+            2: AssetTransfer - transfer sell asset from Swapper to Pool</br>
+            3: AssetTransfer - transfer buy asset from Pool to Swapper</br>
+          </br>
+            The app call transaction (1) verifies that the amounts of transactions 2 and 3 satisfy the constraint of the Pool.
+          </br>
+            The Pay transaction (0) is required to transfer enough Algos to the Pool to cover the fees of transactions 1 and 3.
+          </br>
+            Transactions 0 and 2 must be signed by the Swapper.</p>
+        </li>
+        <li>
+          <h4>What happens if the Pool exchange rate changes between the time of
+            preparing the transactions and execution (slippage)?</h4>
+          <p>This will be a common occurrence in Pools with high usage. Tinyman handles this by including
+            slippage tolerance in the preparation of the transactions to reduce the possibility of asking for
+            more of an asset than allowed by the rate. If the initial set of swap transactions succeed the
+            minimum amount will be received but the Pool will likely hold some excess that can be
+            reclaimed with a subsequent transaction. The excess is redeemed with a Redeem transaction
+            group.</p>
+        </li>
+        <li>
+          <h4>What transactions are needed to Redeem excess?</h4>
+          <p>
+            The specific group of transactions needed for a Reedem are as follows:</br>
+            0: Pay - pay fees in Algo from Swapper to Pool</br>
+            1: App Call - NoOp call to Pair App with args 'redeem'</br>
+            2: AssetTransfer - transfer asset from Pool to Swapper</br>
+            The app call transaction (1) verifies that the amount of transactions 2 is the same as the amount of excess stored in the Pool for the Swapper.</br>
+            The Pay transaction (0) is required to transfer enough Algos to the Pool to cover the fees of transactions 1 and 2.</br>
+            Transaction 0 must be signed by the Swapper.
+          </p>
+        </li>
+        <li>
+          <h4>Are any additional transactions required to Swap on Tinyman?</h4>
+          <p>The Swapper must Opt-In to the Tinyman verification app (or app per pool, TBD) once. They must also Opt-In to receive Assets that they have not previously received. As with all Apps and Assets on Algorand, each Opt-In increases the minimum balance of Algos required. This is not a fee but a minimum balance that must be held.</p>
+        </li>
+        <li>
+          <h4>How does the Swapper know the correct amounts to include in their Swap transactions?</h4>
+          <p>The Tinyman SDK/Web App will calculate these based on the Swapper input amounts using
+            information retrieved from the network on the current asset amounts held by the Pool account.
+            The formula to determine the swap amounts including fees is publicly known and encoded in the
+            SDK/Web App.</p>
+        </li>
+      </ul>
+      <footer><p>© 2021 Tinyman</p></footer>
+  </div>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
