@@ -1,16 +1,16 @@
-<svg width="3297" height="1754" viewBox="0 0 3297 1754" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1873" height="1137" viewBox="0 0 1873 1137" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0)">
-<rect width="492.623" height="2014.9" rx="246.311" transform="matrix(-0.422618 -0.906308 -0.906308 0.422618 2034.31 980.468)" fill="url(#paint0_radial)"/>
+<path d="M1730.11 469.604C1853.4 412.114 1906.74 265.563 1849.25 142.275C1791.76 18.9858 1645.21 -34.3542 1521.92 23.1363L142.275 666.477C18.986 723.967 -34.3543 870.518 23.1362 993.807C80.6267 1117.1 227.177 1170.44 350.466 1112.94L1730.11 469.604Z" fill="url(#paint0_radial)"/>
 </g>
 <defs>
-<radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(318.238 468.501) rotate(92.3924) scale(1679.46 473.027)">
+<radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1394.25 275.085) rotate(152.608) scale(1679.46 473.027)">
 <stop stop-color="#F2FE67"/>
 <stop offset="0.302083" stop-color="#F2FE67"/>
 <stop offset="0.5" stop-color="#10CD7E"/>
 <stop offset="0.78125" stop-color="#A056FF"/>
 </radialGradient>
 <clipPath id="clip0">
-<rect width="3297" height="1754" fill="white"/>
+<rect width="1872.39" height="1136.08" fill="white"/>
 </clipPath>
 </defs>
 </svg>
