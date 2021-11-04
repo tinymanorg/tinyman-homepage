@@ -78,7 +78,6 @@ a {
 .side {
   width: 96px;
   left: 0;
-  top: 0;
   border-right: 1px solid rgba(0, 0, 0, 0.2);
   height: 100%;
   position: fixed;
@@ -800,6 +799,64 @@ i.arrow {
   margin-top: 24px;
 }
 
+.announcement {
+  margin-top: 56px;
+}
+
+.announcement .sliding-text {
+  width: calc(100vh - 166px);
+}
+
+.announcement .sticky {
+  top: 80px;
+}
+
+.announcement .announcement_bar {
+  display: block;
+}
+
+.announcement_bar {
+  overflow: hidden;
+  background-color: #000;
+  height: 56px;
+  width: 100%;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  display: none;
+}
+
+.announcement_bar p {
+  text-align: center;
+  margin: 0;
+  line-height: 56px;
+  color: #2BEA9A;
+}
+
+.announcement_bar a {
+  color: #2BEA9A;
+} 
+
+.announcement_bar a::selection{
+  color: #10CD7E;
+  background: rgba(16, 205, 126, 0.2);
+}
+
+a.announcement_button {
+  position: absolute;
+  right: 0;
+  padding: 20px;
+  display: flex;
+  cursor: pointer;
+  background: #000
+}
+
+
+.announcement_bar > #main {
+  padding: 0 !important;
+}
+
+
 
 
 @media (max-width: 1400px) { 
@@ -979,6 +1036,10 @@ i.arrow {
 
     .link_heading {
       height: 280px;
+    }
+
+    .announcement .sliding-text {
+      top: 88px !important;
     }
 
 }
