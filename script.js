@@ -78,3 +78,8 @@ $(window).scroll(function(){
 
   }
 });
+
+
+$('.announcement_button').on('click', function(){
+  $('body').removeClass('announcement');
+});
