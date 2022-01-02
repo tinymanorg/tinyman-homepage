@@ -502,7 +502,7 @@ i.arrow {
 
 
 .mainnet {
-  margin-top: 150px;
+  margin-top: 64px;
   border-bottom: 1px solid #000;
   display: flex;
   justify-content: space-between;
@@ -749,7 +749,7 @@ i.arrow {
   padding: 0 64px;
 }
 
-.mainnet_cta p::selection, .mainnet_cta h2::selection, .mainnet_cta a::selection {
+.mainnet_cta p::selection, .mainnet_cta h2::selection, .mainnet_cta a::selection, .announcement_dark p::selection, .announcement_dark h4::selection {
   color: #10CD7E;
   background: rgba(16, 205, 126, 0.2);
 }
@@ -1097,8 +1097,17 @@ a.announcement_button {
   .link_heading {
     height: auto;
   }
+}
 
+.announcement_dark {
+  display: block;
+  background-color: #000;
+  color: #10CD7E;
+  padding: 48px;
+  margin-top: 120px;
+  border-radius: 12px;
+}
 
-    
-  
+.announcement_dark p {
+  font-size: 16px;
 }
