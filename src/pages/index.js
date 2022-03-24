@@ -31,7 +31,7 @@ const IndexPage = () => {
         <h3>Tinyman Compensation Program</h3>
         <div class="content">
           <div class="compensation-text">
-            <p class="announcement">Beginning on the 1st of January 2022, an attack was orchestrated on some of Tinyman’s pools by exploiting a previously unknown vulnerability in the Tinyman contracts. Since then, the contracts have been updated to v1.1 and we have started a compensation program for the users who were affected by those attacks.</p>
+            <p class="announcement">Beginning on the 1st of January 2022, an attack was orchestrated on some of Tinyman’s pools by exploiting a previously unknown vulnerability in the Tinyman contracts. Since then, the contracts have been updated to v1.1 and we have started a compensation program for the users who were affected from those attacks.</p>
             <a href="https://tinymanorg.medium.com/tinyman-compensation-program-683dd2bd872b" class="link-s" target="_blank" rel="noreferrer">
                 <div data-hover-animation="Read the blog post">
                 Read the blog post
@@ -39,7 +39,7 @@ const IndexPage = () => {
             </a>
           </div>
           <div class="migration">
-            <p>Tinyman v1.0 compensation program has been started. Check if you are eligible for lost funds and request your compensation amount.</p>
+            <p>Tinyman v1.0 compensation program has started. Check if you are eligible for lost funds and request your compensation amount.</p>
             <a href="https://v1.tinyman.org/" class="link-s" target="_blank" rel="noreferrer">
               <div data-hover-animation="Go to Compensator-3000">
                 Go to Compensator-3000
