@@ -63,15 +63,15 @@ const IndexPage = () => {
           </li>
           <li>
             <h5>Q2 2022</h5>
-            <p>Governance and Token Release</p>
-          </li>
-          <li>
-            <h5>Q2 2022</h5>
-            <p>Updated Analytics Portal</p>
+            <p>Tinyman NFTs</p>
           </li>
           <li>
             <h5>Q3 2022</h5>
-            <p>Tinyman NFTs</p>
+            <p>Updated Analytics Portal</p>
+          </li>
+          <li>
+            <h5>Q4 2022</h5>
+            <p>Governance and Token Release</p>
           </li>
           <li>
             <h5>Q4 2022</h5>
