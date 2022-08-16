@@ -1005,8 +1005,10 @@ footer {
   line-height: 20px;
 }
 
-.copyright {
+.end {
   margin-top: 72px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .mainnet_cta {
@@ -1289,6 +1291,24 @@ footer {
   position: relative;
   z-index: 2;
 }
+
+.tos {
+  max-width: 720px;
+  margin-bottom: 96px;
+}
+
+.tos h2 {
+  text-transform: uppercase;
+  margin-top: 64px;
+}
+
+.tos h3 {
+  font-size: 20px;
+  letter-spacing: -0.5px;
+  line-height: 20px;
+  margin-top: 40px;
+}
+
 
 
 @media (max-width: 1200px) { 
