@@ -8,6 +8,7 @@ const IndexPage = () => {
         <h1>We Are Building For The Future of DeFi</h1>
         <p>Tinyman is a decentralized trading protocol which utilizes the fast and secure framework of the Algorand blockchain, creating an open and safe marketplace for traders, liquidity providers, and developers.</p>
       </div>
+      
       <div class="section helper">
         <a class="helper_box" href="https://docs.tinyman.org/faq" target="_blank" rel="noreferrer">
           <h5>Frequently asked questions</h5>
