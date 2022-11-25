@@ -16,6 +16,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "caniuse-lite": "^1.0.30001431",
     "gatsby": "^4.7.2",
     "gatsby-plugin-google-tagmanager": "^4.10.1",
     "gatsby-plugin-layout": "^3.7.0",

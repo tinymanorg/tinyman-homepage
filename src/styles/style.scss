@@ -90,7 +90,7 @@ a {
 }
 
 .intro_bg {
-  background: linear-gradient(180deg, #10CD7E 0%, #A1E569 22.92%, #F2FE67 45.83%, #FFFFFF 100%);
+  background: linear-gradient(180deg, #00C3AB 9.31%, rgba(1, 202, 180, 0) 92.34%);
   position: absolute;
   top: 0;
   left: 0;
@@ -401,9 +401,9 @@ a {
 }
 
 .intro h1 {
-  margin: 8px 0 20px 0;
-  font-size: 115px;
-  letter-spacing: -6px;
+  margin: 8px 0 12px 0;
+  font-size: 72px;
+  line-height: 100%;
 }
 
 .intro p {
@@ -710,6 +710,7 @@ header ul li a, header ul li button {
   grid-column-gap: 24px;
   border: none !important;
   margin: 64px 0 16px 0;
+  z-index: 999;
 }
 
 .helper_box {
@@ -871,19 +872,21 @@ footer {
 }
 
 .newversion {
-  padding: 96px 0px 144px 0px;
+  padding: 48px 0px 108px 0px;
   position: relative;
 }
 
 .newversion:after {
-  content: '';
-  width: 500px;
-  background: url(../images/particles.svg) no-repeat;
+  content: "";
+  width: 670px;
+  background: url(../images/amm.png) no-repeat;
+  background-size: contain;
   position: absolute;
   aspect-ratio: 1;
-  bottom: 0;
-  left: 50%;
-  transform: translate(-50%);
+  top: 50%;
+  transform: translateY(-50%);
+  right: -5%;
+  margin-top: -64px;
 }
 
 .newversion h3 {
@@ -898,8 +901,13 @@ footer {
   height: 320px;
 }
 
-.newversion .compensation-text {
-  border-right: 1px solid rgba(0, 0, 0, 0.1);
+.amm_logo {
+  width: 162px;
+  height: 46px;
+  display: block;
+  margin-left: -10px;
+  background: url(../images/amm_logo.svg);
+  margin-bottom: 24px;
 }
 
 .newversion .announcement { 
@@ -920,9 +928,9 @@ footer {
 }
 
 .newversion .link-s {
-  margin-top: 16px;
+  margin-top: 48px;
   width: fit-content;
-  margin-bottom: 56px;
+  margin-bottom: 64px;
 }
 
 .newversion .link-s, .newversion p {
@@ -1372,6 +1380,7 @@ footer {
     .helper {
       grid-template-columns: 1fr;
       grid-row-gap: 24px;
+      margin-top: 24px;
     }
 
     .helper_box {
@@ -1379,8 +1388,12 @@ footer {
     }
 
     .newversion {
-        padding: 56px 0;
-        position: relative;
+      text-align: center;
+      padding: 24px 0;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
 
     .newversion:after {
@@ -1407,13 +1420,12 @@ footer {
       grid-column-gap: 48px;
       margin-bottom: 72px;
       height: auto;
-      border-bottom: 0;
+      padding-bottom: 64px;
     }
 
     .newversion .compensation-text:after {
       content: "";
       width: 100%;
-      background: url(../images/particles.svg) no-repeat;
       aspect-ratio: 1;
       margin-top: -80px;
       margin-bottom: -17%;
@@ -1445,9 +1457,9 @@ footer {
 
   h1, .intro h1, .error_content h1 {
     font-weight: normal;
-    font-size: 15vw;
-    line-height: 115%;
-    letter-spacing: -.75vw;
+    font-size: 8vw;
+    line-height: 100%;
+    letter-spacing: -0.8vw;
   }
 
   .sub_intro h1 {
@@ -1579,7 +1591,7 @@ footer {
     }
 
     .intro_bg {
-      background: linear-gradient(180deg, #10CD7E 6.79%, #A1E569 28.15%, #F2FE67 49.51%, #FFFFFF 100%);
+      background: linear-gradient(180deg, #00C3AB 9.31%, rgba(1, 202, 180, 0) 92.34%);
     }
 
     .roadmap_progress {

@@ -1,16 +1,11 @@
 import * as React from "react"
-import videoCover from "../images/cover.png"
 
 const IndexPage = () => {
   return (
     <div class="container"> 
       <div class="intro_bg"></div>
       <div class="intro">
-        <h1>Tiny but resilient</h1>
-        <video autoPlay loop muted playsInline poster={videoCover}>
-          <source src="/v11-movie-hevc.mov" type='video/mp4; codecs="hvc1"' />
-          <source src="/v11-movie-webm.webm" type="video/webm" />
-        </video>
+        <h1>We Are Building For The Future of DeFi</h1>
         <p>Tinyman is a decentralized trading protocol which utilizes the fast and secure framework of the Algorand blockchain, creating an open and safe marketplace for traders, liquidity providers, and developers.</p>
       </div>
       <div class="section helper">
@@ -28,22 +23,14 @@ const IndexPage = () => {
         </a>
       </div>
       <div class="section-s newversion">
-        <h3>Tinyman Compensation Program</h3>
+        <div class="amm_logo"></div>
         <div class="content">
-          <div class="compensation-text">
-            <p class="announcement">Beginning on the 1st of January 2022, an attack was orchestrated on some of Tinyman’s pools by exploiting a previously unknown vulnerability in the Tinyman contracts. Since then, the contracts have been updated to v1.1 and we have started a compensation program for the users who were affected from those attacks.</p>
-            <a href="https://tinymanorg.medium.com/tinyman-compensation-program-683dd2bd872b" class="link-s" target="_blank" rel="noreferrer">
+          <div>
+            <p class="announcement">Tinyman V2.0 protocol is just around the corner. Before going live we think its crucial that our contracts are battle tested by the community with full transparency. We are super excited for this new chapter of Tinyman and can’t wait to show you all the new features we’ve built. See our blog post to learn more about our bounty program and much more.</p>
+            <a href="https://tinymanorg.medium.com/tinyman-amm-v2-0-protocol-201e0f32f58d" class="link-s" target="_blank" rel="noreferrer">
                 <div data-hover-animation="Read the blog post">
                 Read the blog post
                 </div>
-            </a>
-          </div>
-          <div class="migration">
-            <p>Tinyman v1.0 compensation program has started. Check if you are eligible for lost funds and request your compensation amount.</p>
-            <a href="https://v1.tinyman.org/" class="link-s" target="_blank" rel="noreferrer">
-              <div data-hover-animation="Go to Compensator-3000">
-                Go to Compensator-3000
-              </div>
             </a>
           </div>
         </div>
@@ -54,28 +41,28 @@ const IndexPage = () => {
         <div class="roadmap_progress"></div>
         <ul class="list">
           <li>
-            <h5>Q1 2022</h5>
-            <p>Tinyman V1.1 Audit & Mainnet Launch</p>
+            <h5>Q1 2023</h5>
+            <p>Tinyman V2.0 Mainnet Launch</p>
           </li>
           <li>
-            <h5>Q1 2022</h5>
-            <p>Staking Rewards Program & Compensation</p>
+            <h5>Q1 2023</h5>
+            <p>Multi Hop Routing for Swaps</p>
           </li>
           <li>
             <h5>Q2 2022</h5>
-            <p>Tinyman NFTs</p>
+            <p>Metapools & Updated Analytics</p>
           </li>
           <li>
-            <h5>Q3 2022</h5>
-            <p>Updated Analytics Portal</p>
+            <h5>Q3 2023</h5>
+            <p>Native Bridge Integration</p>
           </li>
           <li>
-            <h5>Q4 2022</h5>
-            <p>Governance and Token Release</p>
+            <h5>Q3 2023</h5>
+            <p>Governance and Grants Program</p>
           </li>
           <li>
-            <h5>Q4 2022</h5>
-            <p>Tinyman Developer Program with Grants</p>
+            <h5>Q4 2023</h5>
+            <p>Treasury Management</p>
           </li>
         </ul>
       </div>
