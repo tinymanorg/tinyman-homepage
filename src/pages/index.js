@@ -50,7 +50,7 @@ const IndexPage = () => {
             <p>Multi Hop Routing for Swaps</p>
           </li>
           <li>
-            <h5>Q2 2022</h5>
+            <h5>Q2 2023</h5>
             <p>Metapools & Updated Analytics</p>
           </li>
           <li>
