@@ -131,7 +131,7 @@ const Resources = () => {
               </a>
             </li>
             <li>
-              <a href="https://docs.tinyman.org/audits-&-security" target="_blank" rel="noreferrer">
+              <a href="https://docs.tinyman.org/audits-and-security" target="_blank" rel="noreferrer">
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M11.1394 3.45001L1.1001 13.4893L2.51431 14.9036L12.5539 4.86401L12.5539 12.7637H14.5539L14.5539 1.45001L3.24015 1.45001L3.24015 3.45001L11.1394 3.45001Z" fill="black"/>
                 </svg>
