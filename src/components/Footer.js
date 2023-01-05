@@ -62,7 +62,7 @@ export default function Header(props) {
         <p class="disclaimer">Your use of the Tinyman protocol involves various risks, including, but not limited to, losses while digital assets are being supplied to the Tinyman protocol and losses due to the fluctuation of prices of tokens in a trading pair or liquidity pool. Before using the Tinyman protocol, you should review the relevant documentation to understand how the Tinyman protocol works. You are responsible for doing your diligence on the risks involved.</p>
         <p class="disclaimer">AS DESCRIBED IN THE TINYMAN PROTOCOL LICENSES, THE TINYMAN PROTOCOL IS PROVIDED "AS IS", AT YOUR OWN RISK, AND WITHOUT WARRANTIES OF ANY KIND. Although TM Distributed Development Ltd. ( "Tinyman" ) developed much of the initial code for the Tinyman protocol, it does not provide, own, or control the Tinyman protocol, which is run by smart contracts deployed on the Algorand blockchain. Accordingly, no developer or entity involved in creating the Tinyman protocol will be liable for any claims or damages whatsoever associated with your use, inability to use, or your interaction with other users of the Tinyman protocol, including any direct, indirect, incidental, special, exemplary, punitive or consequential damages, or loss of profits, cryptocurrencies, tokens, or anything else of value.</p>
         <div class="end">
-          <p class="copyright">© 2022 Tinyman</p>
+          <p class="copyright">© 2023 Tinyman</p>
           <Link to="/terms-of-service">Terms of Service</Link>
         </div>
       </footer>

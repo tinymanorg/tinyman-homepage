@@ -29,8 +29,9 @@ export default function Header(props) {
   return (
   <>
     <Helmet>
-      <title>Tinyman | Decentralized, secure trading. Guaranteed liquidity.</title>
-      <meta name="description" content="Tinyman is a re-imagined decentralized trading protocol which utilizes the fast and secure framework of the Algorand blockchain, creating an open and safe marketplace for traders, liquidity providers, and developers." />
+      <title>Tinyman | Decentralized trading protocol on Algorand</title>
+      <meta charset="utf-8"></meta>
+      <meta name="description" content="Tinyman AMM is a DEX (decentralized exchange) on Algorand blockchain. Tinyman allows DeFi users to exchange, swap, provide liquidity, farm their cryptos or tokens." />
       <meta property="og:image" content={Thumbnail} />
     </Helmet>
 
@@ -76,7 +77,7 @@ export default function Header(props) {
           </ul>
         </li>
         <li class="gotoapp">
-          <a href="https://app.tinyman.org/" class="mainnet_btn" target="_blank" rel="noreferrer">Go to Tinyman v1.1</a></li>
+          <a href="https://app.tinyman.org/" class="mainnet_btn" target="_blank" rel="noreferrer">Go to Tinyman v2</a></li>
       </ul>
     </header>
   </div>
@@ -103,7 +104,7 @@ export default function Header(props) {
             </ul>
         </li>
         <li>
-          <a href="https://app.tinyman.org/" class="mainnet_btn" target="_blank" rel="noreferrer"><span>Go to Tinyman v1.1</span></a></li>
+          <a href="https://app.tinyman.org/" class="mainnet_btn" target="_blank" rel="noreferrer"><span>Go to Tinyman v2</span></a></li>
       </ul>
     </header>
   </div>
