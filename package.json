@@ -18,6 +18,7 @@
   "dependencies": {
     "caniuse-lite": "^1.0.30001431",
     "gatsby": "^4.7.2",
+    "gatsby-plugin-google-gtag": "^4.13.0",
     "gatsby-plugin-google-tagmanager": "^4.10.1",
     "gatsby-plugin-layout": "^3.7.0",
     "gatsby-plugin-manifest": "^4.8.0",
