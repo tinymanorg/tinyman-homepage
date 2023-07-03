@@ -56,13 +56,13 @@ const IndexPage = () => {
           <source src="/movie-webm.webm" type="video/webm" />
         </video>
       <div class="news">
+          <a class="news_post" href="https://tealish.tinyman.org/en/latest/" target="_blank" rel="noreferrer">
+            <div></div>
+            <p>New documentation of Tealish: A readable language for the Algorand Virtual Machine</p>
+          </a>
           <a class="news_post" href="https://medium.com/@tinymanorg/tinyman-launches-v2-contracts-big-migration-event-91d0ddb5f9c5" target="_blank" rel="noreferrer">
             <div></div>
             <p>Tinyman v2 launched. Tinyman is evolving and as a part of this process we need your help!</p>
-          </a>
-          <a class="news_post" href="https://www.youtube.com/watch?v=R9oKjwSYuXM" target="_blank" rel="noreferrer">
-            <div></div>
-            <p>Tealish: A readable language for Algorand ecosystem, built by Tinyman team</p>
           </a>
       </div>
       <div class="intro_description">
