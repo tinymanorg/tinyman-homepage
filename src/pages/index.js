@@ -1,6 +1,5 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import videoCover from "../images/cover.png"
 
 const IndexPage = () => {
   return (
@@ -51,18 +50,15 @@ const IndexPage = () => {
           </clipPath>
         </defs>
       </svg>
-      <video class="tiny_walk" autoPlay loop muted playsInline poster={videoCover}>
-          <source src="/movie-hevc.mov" type='video/mp4; codecs="hvc1"' />
-          <source src="/movie-webm.webm" type="video/webm" />
-        </video>
       <div class="news">
+          <a class="news_post" href="https://tinymanorg.medium.com/revealing-the-tinyman-swap-widget-minutes-to-integrate-instant-best-rates-67c68140e029" target="_blank" rel="noreferrer">
+            <div></div>
+            <p>Revealing the Tinyman Swap Widget: Minutes to Integrate, Instant Best Rates</p>
+          </a>
+          <iframe title="tinyman swap widget" class="widget" src="https://hipo.github.io/ui098gh4350u9h435y-swap-widget/?platformName=&network=mainnet&themeVariables=eyJ0aGVtZSI6ImxpZ2h0IiwiY29udGFpbmVyQnV0dG9uQmciOiIjRjJGRTY3Iiwid2lkZ2V0QmciOiIjMEQ5RjYyIiwiaGVhZGVyQnV0dG9uQmciOiIjMEI4NzUzIiwiaGVhZGVyQnV0dG9uVGV4dCI6IiMwMDAwMDAiLCJoZWFkZXJUaXRsZSI6IiMwMDAwMDAiLCJjb250YWluZXJCdXR0b25UZXh0IjoiIzAwMDAwMCIsImlmcmFtZUJnIjoiI0Y4RjhGOCIsImJvcmRlclJhZGl1c1NpemUiOiJtZWRpdW0iLCJ0aXRsZSI6IlN3YXAiLCJzaG91bGREaXNwbGF5VGlueW1hbkxvZ28iOmZhbHNlfQ%3D%3D&assetIn=0&assetOut=31566704" sandbox="allow-same-origin allow-scripts allow-popups allow-forms" />
           <a class="news_post" href="https://tealish.tinyman.org/en/latest/" target="_blank" rel="noreferrer">
             <div></div>
             <p>New documentation of Tealish: A readable language for the Algorand Virtual Machine</p>
-          </a>
-          <a class="news_post" href="https://medium.com/@tinymanorg/tinyman-launches-v2-contracts-big-migration-event-91d0ddb5f9c5" target="_blank" rel="noreferrer">
-            <div></div>
-            <p>Tinyman v2 launched. Tinyman is evolving and as a part of this process we need your help!</p>
           </a>
       </div>
       <div class="intro_description">
