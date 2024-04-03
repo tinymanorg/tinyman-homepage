@@ -154,7 +154,7 @@ const IndexPage = () => {
             <p>$TINY and Governance Audits</p>
           </li>
           <li>
-            <h5>Q1 2024</h5>
+            <h5>Q2 2024</h5>
             <p>Governance Forum Launch</p>
             <p>Airdrop Campaigns</p>
             <p>CEX Partnership Announcements</p>
