@@ -996,7 +996,7 @@ header ul li a, header ul li button {
 
 .list {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   padding: 0;
   margin: 0;
   grid-column-gap: 24px;
@@ -1007,13 +1007,18 @@ header ul li a, header ul li button {
 }
 
 .list li h5 {
-  font-weight: 400;
+  font-weight: 600;
   font-size: 18px;
   line-height: 30px;
+  margin-bottom: 24px;
 } 
 
 .list li p {
   margin-top: 8px;
+  font-size: 16px;
+  line-height: 16px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 16px;
 } 
 
 footer { 
@@ -1570,7 +1575,7 @@ footer {
   }
 
     .list {
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
       grid-row-gap: 24px;
     }
 

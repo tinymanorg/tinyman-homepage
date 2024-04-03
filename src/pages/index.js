@@ -149,28 +149,27 @@ const IndexPage = () => {
         <div class="roadmap_progress"></div>
         <ul class="list">
           <li>
-            <h5>Q1 2023</h5>
-            <p>Tinyman V2.0 Mainnet Launch</p>
+            <h5>Q1 2024</h5>
+            <p>Lending Pools & More Boosted Farms</p>
+            <p>$TINY and Governance Audits</p>
           </li>
           <li>
-            <h5>Q1 2023</h5>
-            <p>Multi Hop Routing for Swaps</p>
+            <h5>Q1 2024</h5>
+            <p>Governance Forum Launch</p>
+            <p>Airdrop Campaigns</p>
+            <p>CEX Partnership Announcements</p>
           </li>
           <li>
-            <h5>Q2 2023</h5>
-            <p>Metapools & Updated Analytics</p>
+            <h5>Q3 2024</h5>
+            <p>$TINY Token & Governance Launch</p>
+            <p>Farms V2 & Auto-Compounding</p>
+            <p>Liquidity Mining Incentives</p>
+            <p>More Bridged Assets & Pools</p>
           </li>
           <li>
-            <h5>Q3 2023</h5>
-            <p>Native Bridge Integration</p>
-          </li>
-          <li>
-            <h5>Q3 2023</h5>
-            <p>Governance and Grants Program</p>
-          </li>
-          <li>
-            <h5>Q4 2023</h5>
-            <p>Treasury Management</p>
+            <h5>Q4 2024</h5>
+            <p>Cross-Chain Expansion/Swap</p>
+            <p>Decentralized Treasury Management</p>
           </li>
         </ul>
       </div>
