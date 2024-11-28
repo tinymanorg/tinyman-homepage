@@ -56,9 +56,9 @@ const IndexPage = () => {
             <p>Revealing the Tinyman Swap Widget: Minutes to Integrate, Instant Best Rates</p>
           </a>
           <iframe title="tinyman swap widget" class="widget" src="https://hipo.github.io/ui098gh4350u9h435y-swap-widget/?platformName=&network=mainnet&themeVariables=eyJ0aGVtZSI6ImxpZ2h0IiwiY29udGFpbmVyQnV0dG9uQmciOiIjRjJGRTY3Iiwid2lkZ2V0QmciOiIjMEQ5RjYyIiwiaGVhZGVyQnV0dG9uQmciOiIjMEI4NzUzIiwiaGVhZGVyQnV0dG9uVGV4dCI6IiMwMDAwMDAiLCJoZWFkZXJUaXRsZSI6IiMwMDAwMDAiLCJjb250YWluZXJCdXR0b25UZXh0IjoiIzAwMDAwMCIsImlmcmFtZUJnIjoiI0Y4RjhGOCIsImJvcmRlclJhZGl1c1NpemUiOiJtZWRpdW0iLCJ0aXRsZSI6IlN3YXAiLCJzaG91bGREaXNwbGF5VGlueW1hbkxvZ28iOmZhbHNlfQ%3D%3D&assetIn=0&assetOut=31566704" sandbox="allow-same-origin allow-scripts allow-popups allow-forms" />
-          <a class="news_post" href="https://app.tinyman.org/#/airdrop/" target="_blank" rel="noreferrer">
+          <a class="news_post" href="https://tealish.tinyman.org/en/latest/" target="_blank" rel="noreferrer">
             <div></div>
-            <p>Airdrop: Dive in, claim your tokens, and let's keep this adventure rolling</p>
+            <p>Explore the Tealish documentation: A readable language for the Algorand Virtual Machine</p>
           </a>
       </div>
       <div class="intro_description">
