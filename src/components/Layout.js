@@ -1,13 +1,13 @@
-import * as React from "react"
-import Header from "../components/Header"
-import Footer from "../components/Footer"
+import * as React from "react";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 export default function Layout({ children }) {
   return (
     <>
-    <Header/>
-    {children}
-    <Footer/>
+      <Header />
+      {children}
+      <Footer />
     </>
-  )
+  );
 }

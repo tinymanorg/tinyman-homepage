@@ -3,12 +3,12 @@ import * as React from "react"
 export default function brandPopup(props) {
   return (
   <div class="brand_popup">
-    <button class="overlay" onClick={props.handleClose}>
+    <button class="overlay" onClick={props.handleClose} aria-label="Overlay">
     </button>
     <div class="popup">
       <div class="title">
         <h5>Are you looking for brand assets?</h5>
-        <button onClick={props.handleClose}>
+        <button onClick={props.handleClose} aria-label="Close">
           <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M10.5845 0L11.9998 1.41533L7.41533 5.99985L12 10.5845L10.5847 11.9998L6 7.41518L1.41533 11.9998L0 10.5845L4.58467 5.99985L0.000151469 1.41533L1.41548 0L6 4.58452L10.5845 0Z" fill="black"/>
           </svg>
