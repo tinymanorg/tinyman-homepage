@@ -366,7 +366,8 @@ const IndexPage = () => {
           href="https://youtu.be/l1-kPATIRhk"
           target="_blank"
           rel="noreferrer"
-        ></a>
+          aria-label="The teaser video"
+        />
       </div>
 
       <div class="section-s last">
@@ -376,17 +377,19 @@ const IndexPage = () => {
           <li>
             <h5>Q1 2025</h5>
             <p>Liquid Staking</p>
-            <p>Permissionless Farms</p>
-            <p>Farming V2</p>
+            <p>Limit Orders</p>
+            <p>DCA</p>
           </li>
           <li>
             <h5>Q2 2025</h5>
+            <p>Permissionless Farms</p>
+            <p>Farming V2</p>
             <p>Enhance $TINY Token Utility</p>
-            <p>Analytics Upgrade</p>
           </li>
           <li>
             <h5>Q3 2025</h5>
             <p>Decentralized Treasury Management</p>
+            <p>Analytics Upgrade</p>
           </li>
           <li>
             <h5>Q4 2025</h5>
