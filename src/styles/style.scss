@@ -1501,11 +1501,12 @@ footer {
 
   .news_post {
     text-align: left !important;
-    align-items: center !important;
+    align-items: flex-start;
     width: 415px;
     margin: 0 auto 24px auto;
     display: grid;
     grid-template-columns: 144px 1fr;
+    gap: 16px;
   }
   
   .news_post div {
@@ -1513,6 +1514,35 @@ footer {
     height: 72px;
     margin-bottom: 0;
   }
+
+  @media (max-width: 480px) {
+  .news_post {
+    width: 100%;
+    max-width: 415px;
+    padding: 0 16px;
+    margin: 0 auto 24px auto;
+    margin-top: 8px;
+    grid-template-columns: 100px 1fr;
+    gap: 12px;
+  }
+  
+  .news_post div {
+    width: 100px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 320px) {
+  .news_post {
+    grid-template-columns: 80px 1fr;
+    gap: 8px;
+  }
+  
+  .news_post div {
+    width: 80px;
+    height: 48px;
+  }
+}
 
 
     .helper {
