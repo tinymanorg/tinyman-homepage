@@ -159,8 +159,7 @@ const IndexPage = () => {
         >
           <div></div>
           <p>
-            Revealing the Tinyman Swap Widget: Minutes to Integrate, Instant
-            Best Rates
+            Take full control of your trading strategy — automate swaps based on price targets or set recurring orders to stay ahead of the market.
           </p>
         </a>
         <iframe
