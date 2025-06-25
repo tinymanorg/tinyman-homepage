@@ -1531,20 +1531,6 @@ footer {
     height: 60px;
   }
 }
-
-@media (max-width: 320px) {
-  .news_post {
-    grid-template-columns: 80px 1fr;
-    gap: 8px;
-  }
-  
-  .news_post div {
-    width: 80px;
-    height: 48px;
-  }
-}
-
-
     .helper {
       grid-template-columns: 1fr;
       grid-row-gap: 24px;
