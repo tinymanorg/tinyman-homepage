@@ -1515,22 +1515,8 @@ footer {
     margin-bottom: 0;
   }
 
-  @media (max-width: 480px) {
-  .news_post {
-    width: 100%;
-    max-width: 415px;
-    padding: 0 16px;
-    margin: 0 auto 24px auto;
-    margin-top: 8px;
-    grid-template-columns: 100px 1fr;
-    gap: 12px;
-  }
   
-  .news_post div {
-    width: 100px;
-    height: 60px;
-  }
-}
+
 
 
     .helper {
@@ -1609,8 +1595,7 @@ footer {
     overflow: hidden;
     z-index: 999;
   }
-
-
+  
   h1, .intro h1, .error_content h1 {
     font-weight: 800;
     font-size: 12vw;
@@ -1888,6 +1873,17 @@ footer {
 
   .news_post {
     width: 100%;
+    max-width: 415px;
+    padding: 0 16px;
+    margin: 0 auto 24px auto;
+    margin-top: 8px;
+    grid-template-columns: 100px 1fr;
+    gap: 12px;
+  }
+
+  .news_post div {
+    width: 100px;
+    height: 60px;
   }
   
 
@@ -1950,4 +1946,4 @@ footer {
     justify-content: space-between;
   }
 
-}
+ }
