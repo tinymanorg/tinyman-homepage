@@ -1502,11 +1502,11 @@ footer {
 
   .news_post {
     text-align: left !important;
-    align-items: flex-start;
+    align-items: center !important;
     width: 415px;
-    margin: 24px 0;
+    margin: 0 auto 24px;
     display: grid;
-    grid-template-columns: 144px 1fr;
+    grid-template-columns: auto 1fr;
     gap: 16px;
   }
   
@@ -1870,11 +1870,6 @@ footer {
 
   .news_post {
     width: 100%;
-    max-width: 415px;
-    padding: 0 16px;
-    margin: 8px auto 24px;
-    grid-template-columns: 100px 1fr;
-    gap: 12px;
   }
 
   .news_post div {
