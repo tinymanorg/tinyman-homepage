@@ -153,7 +153,7 @@ const IndexPage = () => {
       <div class="news">
         <a
           class="news_post"
-          href="https://tinymanorg.medium.com/revealing-the-tinyman-swap-widget-minutes-to-integrate-instant-best-rates-67c68140e029"
+          href="https://app.tinyman.org/trigger?asset_in=0&asset_out=31566704"
           target="_blank"
           rel="noreferrer"
         >
