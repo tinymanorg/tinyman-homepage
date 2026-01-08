@@ -159,7 +159,8 @@ const IndexPage = () => {
         >
           <div></div>
           <p>
-            Take full control of your trading strategy — automate swaps based on price targets or set recurring orders to stay ahead of the market.
+            Take full control of your trading strategy — automate swaps based on
+            price targets or set recurring orders to stay ahead of the market.
           </p>
         </a>
         <iframe
@@ -374,25 +375,24 @@ const IndexPage = () => {
         <div class="roadmap_progress"></div>
         <ul class="list">
           <li>
-            <h5>Q1 2025</h5>
-            <p>Liquid Staking</p>
-            <p>Limit Orders</p>
-            <p>DCA</p>
+            <h5>Q1 2026</h5>
+            <p>Enhance TINY utility</p>
+            <p>Split Router</p>
           </li>
           <li>
-            <h5>Q2 2025</h5>
+            <h5>Q2 2026</h5>
             <p>Permissionless Farms</p>
             <p>Farming V2</p>
-            <p>Enhance $TINY Token Utility</p>
           </li>
           <li>
-            <h5>Q3 2025</h5>
-            <p>Decentralized Treasury Management</p>
+            <h5>Q3 2026</h5>
+            <p>Adjustable Trading Fees</p>
             <p>Analytics Upgrade</p>
           </li>
           <li>
-            <h5>Q4 2025</h5>
+            <h5>Q4 2026</h5>
             <p>Cross-Chain Expansion/Swap</p>
+            <p>Decentralized Treasury Management</p>
           </li>
         </ul>
       </div>
