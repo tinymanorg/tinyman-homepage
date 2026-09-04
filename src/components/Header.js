@@ -76,7 +76,7 @@ export default function Header() {
                 </li>
                 <li>
                   <a
-                    href="https://discord.gg/wvHnAdmEv6"
+                    href="https://discord.gg/tYgQYErwUK"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -151,7 +151,7 @@ export default function Header() {
                 </li>
                 <li>
                   <a
-                    href="https://discord.gg/wvHnAdmEv6"
+                    href="https://discord.gg/tYgQYErwUK"
                     target="_blank"
                     rel="noreferrer"
                   >
